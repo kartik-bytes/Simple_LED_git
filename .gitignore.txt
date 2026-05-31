@@ -1,0 +1,26 @@
+# KiCad backups and autosaves
+*-bak
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.tmp
+*.lock
+
+# KiCad project UI settings (keeps window positions local)
+*.kicad_prl
+
+# Netlists and auto-routing files
+*.net
+*.dsn
+*.ses
+
+# Manufacturing outputs (Best practice is to generate these fresh, not track them)
+/gerbers/
+/fabrication/
+*.gbr
+*.drl
+*.pos
+*.csv
+.history/
